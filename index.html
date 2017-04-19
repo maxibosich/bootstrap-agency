@@ -117,14 +117,25 @@
 					<h2 class="text-center">About</h2>
 					<h5 class="text-center">Lorem ipsum dolor sit amet consectetur.</h5>
 				</div>
-				<div class="col-md-12 media">
-				  <div class="media-right media-middle">
-				      <img class="media-object img-circle img-responsive" src="http://placehold.it/160x160">
-				  </div>
-				  <div class="media-body">
-				    <h4 class="media-heading">2009-2011 Our humble begginings</h4>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				  </div>
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<img src="images/1.jpg" alt="Picture">
+					</div> <!-- cd-timeline-img -->
+ 
+					<div class="cd-timeline-content">
+						<h2>2009-2011 Our Humble Beginnings</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div> <!-- cd-timeline-content -->
+				</div> <!-- cd-timeline-block -->
+			 
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<img src="images/2.jpg" alt="Picture">
+					</div>
+					<div class="cd-timeline-content">
+						<h2>MARCH 2011 An Agency is Born</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -197,19 +208,29 @@
 					<h5 class="text-center">Lorem ipsum dolor sit amet consectetur.</h5>
 				</div>
 				<form>
-					<div class="form-group">
-						<label for="yourname"></label>
-						<input type="text" class="form-control" id="yourname" placeholder="Your Name" required>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="yourname"></label>
+							<input type="text" class="form-control" id="yourname" placeholder="Your Name" required>
+						</div>
+						<div class="form-group">
+							<label for="yourmail"></label>
+							<input type="email" class="form-control" id="yourmail" placeholder="Your Email" required>
+						</div>
+						<div class="form-group">
+							<label for="yourphone"></label>
+							<input type="tel" class="form-control" id="yourphone" placeholder="Your Phone" required>
+						</div>
 					</div>
-					<div class="form-group">
-						<label for="yourmail"></label>
-						<input type="email" class="form-control" id="yourmail" placeholder="Your Email" required>
-					</div>
-					<div class="form-group">
-						<label for="yourphone"></label>
-						<input type="tel" class="form-control" id="yourphone" placeholder="Your Phone" required>
+					<div class="col-md-6">
+						<div class="form-group">
+						<label for="message"></label>
+						<input type="text" class="form-control" id="message" placeholder="Your Message" required>
 					</div>
 				</form>
+				<div class="col-md-12">
+					<div class="text-center"><a class="btn btn-default boton" href="#" role="button">Send Message</a></div>
+				</div>
 			</div>
 		</div>
 	</section>
