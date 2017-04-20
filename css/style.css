@@ -1,17 +1,29 @@
 .menu{
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
     text-transform: uppercase;
-    margin-left: 45px;
-    margin-right: 45px;
+    padding: 25px 40px;
+    background-color: transparent;
+    border: none;
+    transition: padding .3s;
+}
+
+.amarillo{
+	color: #fed136 !important;
+	font-family: Helvetica Neue,Helvetica,Arial,cursive;
+}
+
+.blanco{
+	color: white !important;
+	font-size: 14px;
+	letter-spacing: 1px;
 }
 
 .encabezado{
 	background: url("../images/people-vintage-photo-memories.jpg");
-	height: 500px;
+	height: 750px;
 	background-size: cover;
 	color: white;
-	padding-top: 80px;
+	padding-top: 275px;
 }
 
 .titulo-principal{
@@ -117,4 +129,8 @@ footer{
   height: 100%;
   width: 4px;
   background: #d7e4ed;
+}
+
+.mensaje{
+	height: 175px;
 }
